@@ -1,0 +1,7 @@
+*.tar
+*.pbxproj
+/DesignPattern/DesignPattern.xcodeproj/xcuserdata/zhangli.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+*.xcscheme
+*.xcuserstate
+*.cpp#
+/abstract-factory.cpp~
