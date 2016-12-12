@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BE9DC2B1DFE8B080051041A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9DC2A1DFE8B080051041A /* main.cpp */; };
+		0BE9DC411DFE9A1D0051041A /* ESWeapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9DC3F1DFE9A1D0051041A /* ESWeapon.cpp */; };
+		0BE9DC441DFE9C400051041A /* ESEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9DC421DFE9C400051041A /* ESEngine.cpp */; };
+		0BE9DC471DFE9DC30051041A /* EnemyShip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9DC451DFE9DC30051041A /* EnemyShip.cpp */; };
+		0BE9DC4A1DFEA0200051041A /* EnemyShipFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9DC481DFEA0200051041A /* EnemyShipFactory.cpp */; };
+		0BE9DC4D1DFEA3360051041A /* EnemyShipBuilding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9DC4B1DFEA3360051041A /* EnemyShipBuilding.cpp */; };
+		0BE9DC4F1DFEA4940051041A /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9DC4E1DFEA4940051041A /* Main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0BE9DC251DFE8B080051041A /* CopyFiles */ = {
+		0BE9DC351DFE8BA50051041A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +28,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0BE9DC271DFE8B080051041A /* DesignPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPattern; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BE9DC2A1DFE8B080051041A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0BE9DC311DFE8B430051041A /* abstract-factory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "abstract-factory.cpp"; path = "../../abstract-factory.cpp"; sourceTree = "<group>"; };
+		0BE9DC371DFE8BA50051041A /* abstract-factroy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "abstract-factroy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE9DC3F1DFE9A1D0051041A /* ESWeapon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ESWeapon.cpp; sourceTree = "<group>"; };
+		0BE9DC401DFE9A1D0051041A /* ESWeapon.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ESWeapon.hpp; sourceTree = "<group>"; };
+		0BE9DC421DFE9C400051041A /* ESEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ESEngine.cpp; sourceTree = "<group>"; };
+		0BE9DC431DFE9C400051041A /* ESEngine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ESEngine.hpp; sourceTree = "<group>"; };
+		0BE9DC451DFE9DC30051041A /* EnemyShip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EnemyShip.cpp; sourceTree = "<group>"; };
+		0BE9DC461DFE9DC30051041A /* EnemyShip.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EnemyShip.hpp; sourceTree = "<group>"; };
+		0BE9DC481DFEA0200051041A /* EnemyShipFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EnemyShipFactory.cpp; sourceTree = "<group>"; };
+		0BE9DC491DFEA0200051041A /* EnemyShipFactory.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EnemyShipFactory.hpp; sourceTree = "<group>"; };
+		0BE9DC4B1DFEA3360051041A /* EnemyShipBuilding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EnemyShipBuilding.cpp; sourceTree = "<group>"; };
+		0BE9DC4C1DFEA3360051041A /* EnemyShipBuilding.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EnemyShipBuilding.hpp; sourceTree = "<group>"; };
+		0BE9DC4E1DFEA4940051041A /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0BE9DC241DFE8B080051041A /* Frameworks */ = {
+		0BE9DC341DFE8BA50051041A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +57,7 @@
 		0BE9DC1E1DFE8B080051041A = {
 			isa = PBXGroup;
 			children = (
-				0BE9DC291DFE8B080051041A /* DesignPattern */,
+				0BE9DC381DFE8BA50051041A /* abstract-factroy */,
 				0BE9DC281DFE8B080051041A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,37 +65,48 @@
 		0BE9DC281DFE8B080051041A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BE9DC271DFE8B080051041A /* DesignPattern */,
+				0BE9DC371DFE8BA50051041A /* abstract-factroy */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0BE9DC291DFE8B080051041A /* DesignPattern */ = {
+		0BE9DC381DFE8BA50051041A /* abstract-factroy */ = {
 			isa = PBXGroup;
 			children = (
-				0BE9DC2A1DFE8B080051041A /* main.cpp */,
+				0BE9DC311DFE8B430051041A /* abstract-factory.cpp */,
+				0BE9DC3F1DFE9A1D0051041A /* ESWeapon.cpp */,
+				0BE9DC401DFE9A1D0051041A /* ESWeapon.hpp */,
+				0BE9DC421DFE9C400051041A /* ESEngine.cpp */,
+				0BE9DC431DFE9C400051041A /* ESEngine.hpp */,
+				0BE9DC451DFE9DC30051041A /* EnemyShip.cpp */,
+				0BE9DC461DFE9DC30051041A /* EnemyShip.hpp */,
+				0BE9DC481DFEA0200051041A /* EnemyShipFactory.cpp */,
+				0BE9DC491DFEA0200051041A /* EnemyShipFactory.hpp */,
+				0BE9DC4B1DFEA3360051041A /* EnemyShipBuilding.cpp */,
+				0BE9DC4C1DFEA3360051041A /* EnemyShipBuilding.hpp */,
+				0BE9DC4E1DFEA4940051041A /* Main.cpp */,
 			);
-			path = DesignPattern;
+			path = "abstract-factroy";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0BE9DC261DFE8B080051041A /* DesignPattern */ = {
+		0BE9DC361DFE8BA50051041A /* abstract-factroy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BE9DC2E1DFE8B080051041A /* Build configuration list for PBXNativeTarget "DesignPattern" */;
+			buildConfigurationList = 0BE9DC3B1DFE8BA50051041A /* Build configuration list for PBXNativeTarget "abstract-factroy" */;
 			buildPhases = (
-				0BE9DC231DFE8B080051041A /* Sources */,
-				0BE9DC241DFE8B080051041A /* Frameworks */,
-				0BE9DC251DFE8B080051041A /* CopyFiles */,
+				0BE9DC331DFE8BA50051041A /* Sources */,
+				0BE9DC341DFE8BA50051041A /* Frameworks */,
+				0BE9DC351DFE8BA50051041A /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DesignPattern;
-			productName = DesignPattern;
-			productReference = 0BE9DC271DFE8B080051041A /* DesignPattern */;
+			name = "abstract-factroy";
+			productName = "abstract-factroy";
+			productReference = 0BE9DC371DFE8BA50051041A /* abstract-factroy */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -91,7 +118,7 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "章立";
 				TargetAttributes = {
-					0BE9DC261DFE8B080051041A = {
+					0BE9DC361DFE8BA50051041A = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 536G34352H;
 						ProvisioningStyle = Automatic;
@@ -110,17 +137,22 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BE9DC261DFE8B080051041A /* DesignPattern */,
+				0BE9DC361DFE8BA50051041A /* abstract-factroy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0BE9DC231DFE8B080051041A /* Sources */ = {
+		0BE9DC331DFE8BA50051041A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BE9DC2B1DFE8B080051041A /* main.cpp in Sources */,
+				0BE9DC4D1DFEA3360051041A /* EnemyShipBuilding.cpp in Sources */,
+				0BE9DC4F1DFEA4940051041A /* Main.cpp in Sources */,
+				0BE9DC4A1DFEA0200051041A /* EnemyShipFactory.cpp in Sources */,
+				0BE9DC471DFE9DC30051041A /* EnemyShip.cpp in Sources */,
+				0BE9DC441DFE9C400051041A /* ESEngine.cpp in Sources */,
+				0BE9DC411DFE9A1D0051041A /* ESWeapon.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +246,7 @@
 			};
 			name = Release;
 		};
-		0BE9DC2F1DFE8B080051041A /* Debug */ = {
+		0BE9DC3C1DFE8BA50051041A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 536G34352H;
@@ -222,7 +254,7 @@
 			};
 			name = Debug;
 		};
-		0BE9DC301DFE8B080051041A /* Release */ = {
+		0BE9DC3D1DFE8BA50051041A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 536G34352H;
@@ -242,11 +274,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BE9DC2E1DFE8B080051041A /* Build configuration list for PBXNativeTarget "DesignPattern" */ = {
+		0BE9DC3B1DFE8BA50051041A /* Build configuration list for PBXNativeTarget "abstract-factroy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0BE9DC2F1DFE8B080051041A /* Debug */,
-				0BE9DC301DFE8B080051041A /* Release */,
+				0BE9DC3C1DFE8BA50051041A /* Debug */,
+				0BE9DC3D1DFE8BA50051041A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
