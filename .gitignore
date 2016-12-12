@@ -10,3 +10,4 @@
 /test
 /test.cpp~
 /abstract-factory
+*.xcuserstate
