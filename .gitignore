@@ -5,3 +5,8 @@
 *.xcuserstate
 *.cpp#
 /abstract-factory.cpp~
+/TAGS
+/test.cpp
+/test
+/test.cpp~
+/abstract-factory
